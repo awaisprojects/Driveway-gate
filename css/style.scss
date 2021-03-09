@@ -88,7 +88,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10723,6 +10723,20 @@ form .row:first-child .floating-label-form-group {
   width: 100%;
   .bannerCarousel {
     width: 100%;
+  }
+}
+
+// #about
+
+#about {
+  padding-bottom: 0px !important;
+  p {
+    font-size: 18px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 

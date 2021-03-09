@@ -88,7 +88,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
-  padding-top: 110px;
+  padding-top: 100px;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -11177,6 +11177,18 @@ form .row:first-child .floating-label-form-group {
 }
 .bannerContainer .bannerCarousel {
   width: 100%;
+}
+
+#about {
+  padding-bottom: 0px !important;
+}
+#about p {
+  font-size: 18px;
+}
+#about a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 #portfolio .items {
