@@ -11198,3 +11198,30 @@ form .row:first-child .floating-label-form-group {
 #portfolio img {
   width: 100%;
 }
+
+#ourProducts {
+  margin-top: 70px;
+}
+#ourProducts .row {
+  margin-top: 30px;
+}
+#ourProducts .row .nav-link {
+  border-radius: 0px !important;
+  background-color: #ffffff !important;
+  color: #07194c;
+  border: 0px solid;
+  border-bottom: 1px solid #cccc;
+  text-align: start;
+  padding-left: 15px;
+}
+#ourProducts .row .nav-link.active, #ourProducts .row .nav-link:hover {
+  background-color: #b7741a !important;
+  outline: none !important;
+  color: #ffffff;
+}
+#ourProducts .row .categorie img {
+  width: 100%;
+}
+#ourProducts .row .categorie .categoryText {
+  margin-bottom: 50px;
+}
