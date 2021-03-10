@@ -90,6 +90,11 @@ body {
   background-color: #fff;
   padding-top: 100px;
 }
+@media screen and (max-width: 990px) {
+  body {
+    padding-top: 75px;
+  }
+}
 
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
