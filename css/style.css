@@ -11173,6 +11173,17 @@ form .row:first-child .floating-label-form-group {
 .bannerContainer .bannerCarousel {
   width: 100%;
 }
+.bannerContainer .carousel-inner {
+  position: relative;
+}
+.bannerContainer .bannerContactNumber {
+  position: absolute;
+  bottom: 64px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 7px 19px;
+  left: 45px;
+}
 
 #about {
   padding-bottom: 0px !important;

@@ -10718,6 +10718,17 @@ form .row:first-child .floating-label-form-group {
   .bannerCarousel {
     width: 100%;
   }
+  .carousel-inner {
+    position: relative;
+  }
+  .bannerContactNumber {
+    position: absolute;
+    bottom: 64px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    padding: 7px 19px;
+    left: 45px;
+  }
 }
 
 // #about
