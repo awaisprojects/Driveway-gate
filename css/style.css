@@ -11207,6 +11207,42 @@ form .row:first-child .floating-label-form-group {
 #portfolio .item3 {
   background-image: url(../assets/images/img3.png);
 }
+#portfolio .diagramItem1 {
+  background-image: url(../assets/images/diagrams1.jpg);
+}
+#portfolio .diagramItem2 {
+  background-image: url(../assets/images/diagrams2.jpg);
+}
+#portfolio .diagramItem3 {
+  background-image: url(../assets/images/diagrams3.jpg);
+}
+#portfolio .diagramItem4 {
+  background-image: url(../assets/images/diagrams4.jpg);
+}
+#portfolio .diagramItem5 {
+  background-image: url(../assets/images/diagrams5.jpg);
+}
+#portfolio .diagramItem6 {
+  background-image: url(../assets/images/diagrams6.jpg);
+}
+#portfolio .diagramItem7 {
+  background-image: url(../assets/images/diagrams7.jpg);
+}
+#portfolio .diagramItem8 {
+  background-image: url(../assets/images/diagrams8.jpg);
+}
+#portfolio .diagramItem9 {
+  background-image: url(../assets/images/diagrams9.jpg);
+}
+#portfolio .diagramItem10 {
+  background-image: url(../assets/images/diagrams10.jpg);
+}
+#portfolio .diagramItem11 {
+  background-image: url(../assets/images/diagrams11.jpg);
+}
+#portfolio .diagramItem12 {
+  background-image: url(../assets/images/diagrams12.jpg);
+}
 #portfolio img {
   width: 100%;
 }
@@ -11236,4 +11272,8 @@ form .row:first-child .floating-label-form-group {
 }
 #ourProducts .row .categorie .categoryText {
   margin-bottom: 50px;
+}
+
+#diagramsLibrary h2 {
+  font-size: 25px;
 }

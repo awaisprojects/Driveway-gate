@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face { 
+   font-family: 'HelveticaNeue';
+    src: url('../font/HELVETICANEUE_0.eot');
+    src: url('../font/HELVETICANEUE_0.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticaneue_0.woff') format('woff'),
+         url('../font/HELVETICANEUE_0.ttf') format('truetype'),
+         url('../font/helveticaneue_0.svg#helveticaneue_0') format('svg');
+}
+@font-face { 
+   font-family: 'Helvetica';
+    src: url('../font/4864.eot');
+    src: url('../font/4864.eot?#iefix') format('embedded-opentype'),
+         url('../font/4864.woff') format('woff'),
+         url('../font/4864.ttf') format('truetype'),
+         url('../font/4864.svg#4864') format('svg');
+}
+ @font-face { 
+   font-family: 'Helvetica87-Condense';
+    src: url('../font/HelveticaNeueLTStd-HvCn.eot');
+    src: url('../font/HelveticaNeueLTStd-HvCn.eot?#iefix') format('embedded-opentype'),
+         url('../font/HelveticaNeueLTStd-HvCn.woff') format('woff'),
+         url('../font/helveticaneueltstdhvcn.ttf') format('truetype'),
+         url('../font/helveticaneueltstdhvcn.svg#helveticaneueltstdhvcn') format('svg');
+} 
+ @font-face { 
+   font-family: 'Helvetica Neue LT Com';
+    src: url('../font/helvetica-37-thin.eot');
+    src: url('../font/helvetica-37-thin.eot?#iefix') format('embedded-opentype'),
+         url('../font/helvetica37thin.woff') format('woff'),
+         url('../font/helvetica-37-thin.ttf') format('truetype'),
+         url('../font/helvetica37thin.svg#helvetica37thin') format('svg');
+}  
+@font-face { 
+   font-family:'HelveticaNeue Medium';
+    src: url('../font/HELVETICAMEDCD.eot');
+    src: url('../font/HELVETICAMEDCD.eot?#iefix') format('embedded-opentype'),
+         url('../font/helveticamedcd.woff') format('woff'),
+         url('../font/HELVETICAMEDCD.ttf') format('truetype'),
+         url('../font/helveticamedcd.svg#helveticamedcd') format('svg');
+}
+*{margin:0; padding:0;}
+img{border:none;}
+a{text-decoration:none; cursor:pointer;}
+.clear{clear:both;}
+body{background:url(http://www.saddleriverinn.com/images/background.jpg) repeat fixed;}
+.wrapper{width:1000px; height:auto; margin:0 auto; background:#ffffff;}
+.header{width:980px; height:125px; background:#00194c; padding:10px;}
+.logo{width:442px; height:auto; float:left; text-align:right !important; padding-top:25px;}
+.right_header{width:538px; height:auto; float:left; text-align:right; color:#ffffff; font-family:'HelveticaNeue Medium'; font-size:18px;}
+ul.topnav{float:right; margin-left:30px;}
+ul.topnav li{display:inline; list-style-type:none; font-family:Arial, Helvetica, sans-serif; font-size:14px; vertical-align: top;}
+ul.topnav li a{color:#ffffff; vertical-align: top;}
+ul.topnav li a:hover{color:#f19901;}
+.searchb{padding:5px; background-color:#c57e03; margin-top:30px; width:300px; float:right; border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; -o-border-radius:7px;}
+.txt_search{padding:8px; border:none; color:#5d5d5d; font-family:Arial, Helvetica, sans-serif; font-size:12px; width:185px; float:left;}
+.txt_search22{padding:8px; border:none; color:#5d5d5d; font-family:Arial, Helvetica, sans-serif; font-size:12px; width:185px; float:left; width:160px; height:12px;}
+.btn_go{padding:8px; background:#373737; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px; border:none; cursor:pointer; float:left;}
+.btn_go22{padding:5px; background:#373737; color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px; border:none; cursor:pointer; float:left; width:50px;}
+.searchb span{font-size:16px; font-family:Calibri; line-height:27px;}
+.mainnav{width:100%; height:38px; background:url(../images/nav.png) repeat-x;}
+.mainnav ul li{display:block; float:left; list-style-type:none; border-right:solid 1px #a86b00; height:30px; margin-top:3px;}
+.mainnav ul li a{color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:14px;  padding:0 20px; line-height:30px; display:block;}
+.mainnav ul li a:hover,.mainnav ul li a.active{background:#bf7900;}
+.bord{border:none !important;}
+.banner{width:983px; height:400px; margin:10px auto 0 auto;}
+.banner_shad{width:1000px; height:45px; margin:0; background:url(../images/banner_shad.png) no-repeat;}
+.mainDiv{width:983px; height:auto; margin:20px auto;}
+.left_pro{width:260px; height:auto; float:left;} .left_pro h1{font-size:30px; color:#e49101;  font-family: 'Helvetica'; font-weight:normal;} .left_pro h1 span{color:#373737;}
+.left_pro ul{display:block; width:100%; margin-top:10px;}
+.left_pro ul li{display:block; list-style-type:none; border-bottom:dotted 1px #373737;}
+.left_pro ul li a{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#373737; display:block; background:url(../images/list_icon.png) no-repeat left center; padding-left:18px; line-height:38px;}
+.left_pro ul li a:hover{color:#e49101;}
+
+.right_pro{width:685px; height:auto; float:right;}
+.right_pro h1{font-family: 'Helvetica87-Condense'; color:#e49101; font-weight:normal; font-size:30px; border-bottom:solid 1px #999999; padding:0 0 5px 0;} .right_pro h1 span{color:#373737;}
+.right_pro p{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#545353; padding:10px 0 0 0; line-height:24px;}
+.box1{width:314px; height:auto; float:left; margin-right:20px;}
+.box1 img, .box2 img, .box3 img{border:solid 3px #bababa;} .box1 p, .box2 p, .box3 p{font-family:Arial, Helvetica, sans-serif; font-size:11px !important; color:#454545 !important; padding:7px 0 !important; line-height:16px;}
+.box1 p a, .box2 p a, .box3 p a{color:#000000; text-align:right; font-weight:bold; float:right;} 
+.box1 p a:hover, .box2 p a:hover, .box3 p a:hover{text-decoration:underline;}
+.box2{width:314px; height:auto; float:left;}
+.box3{width:314px; height:auto; float:right;}
+.btnBuy{width:93px; height:33px; border:none; cursor:pointer; position:absolute; margin:135px 0 0 210px; background:url(../images/buy.png) no-repeat;}
+.bottoms{width:979px; height:182px; border:solid 2px #bfbfbf; border-radius:5px; background:url(../images/bottoms.png) repeat-x; margin:10px auto;}
+
+.footer{width:100%; height:205px; background-color:#00194c; margin-top:25px; overflow:hidden;}
+.foot1{width:215px; height:auto; float:left; padding:20px;}
+.foot1 h1{font-family: 'Helvetica Neue LT Com'; font-size:24px; color:#ff9600; font-weight:normal;}
+.foot1 ul{display:block; margin-top:10px;} .foot1 ul li{list-style-type:none;}
+.foot1 ul li a{color:#ffffff; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:25px;}
+.foot1 ul li a:hover{text-decoration:underline;}
+.foot2{width:215px; height:auto; float:left; margin-top:21px;}
+.foot2 h1{font-family: 'Helvetica Neue LT Com'; font-size:24px; color:#ff9600; font-weight:normal;}
+.last{width:100%; height:35px; background:#090909;}
+.last ul{float:left; margin-left:17px;}
+.last ul li{display:block; float:left; margin:0 7px; list-style-type:none; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:35px; color:#c2c1c1;}
+.last ul li a{color:#c2c1c1;} .last ul li a:hover{text-decoration:underline;}
+.allr{float:right; line-height:35px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#c2c1c1; padding-right:10px;}
+.allr span{color:#ff9001;}
+.code{position:absolute; background:url(../images/code.png) no-repeat; width:20px; height:16px; margin-top: 33px;position: absolute;}
+.code2{position:absolute; background:url(../images/code2.png) no-repeat; width:20px; height:16px; margin:15px 0 0 195px;}
+.social{width:50px; height:159px; position:fixed; background:url(../images/social.png) no-repeat; top:30%; right:0;}
+.social a{margin:0 0 0 15px;} .social a img{padding-top:5px;}
+
+.hedm{font-family: 'Helvetica87-Condense'; color:#e49101; font-weight:normal; font-size:30px; border-bottom:solid 1px #999999; padding:0 0 5px 0;}
+.hedm span{color:#373737;}
+.mainDiv p{font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#333333; padding:10px 0;}
+.mainDiv h2{font-family: 'Helvetica Neue LT Com'; color:#e49101; font-weight:normal; font-size:30px; padding-top:10px;}
+.can{background:url(../images/contact2.png) no-repeat left center; padding-left:30px; color:rgb(255, 187, 44);}
+.mainDiv table tr td p{padding:0 0 0 10px; text-align: justify;}
+.mainDiv table tr td{font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: #333333;}
+.phone{width:272px; height:55px; position:absolute; z-index:99999; background:url(../images/contacti.png) no-repeat; margin-top:330px;}

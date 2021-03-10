@@ -1,0 +1,44 @@
+﻿
+
+.hidden
+{
+display: none;
+}
+.jFlowPrev{
+top:-24px;
+left:160px;
+}
+.jFlowNext{
+top:-24px;
+float:right;
+}
+.jFlowPrev2{
+top:100px
+}
+.jFlowNext2{
+top:100px;
+float:right;
+}
+#prevNext
+{
+margin-bottom:-45px;
+}
+
+#prevNext img
+{
+position: relative;
+z-index: 2;
+cursor: pointer;
+}
+.nam{color:#ff9001; float:right; margin-top:50px;}
+#sli div{
+color:#FFFFFF;
+}
+
+#slid{
+width:546px;
+height:auto;
+left:20px;
+}
+.jFlowSlideContainer{width:220px !important;}
+#jFlowSlide{top:-16px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:20px;}

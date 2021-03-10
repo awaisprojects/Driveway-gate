@@ -10757,6 +10757,55 @@ form .row:first-child .floating-label-form-group {
   .item3 {
     background-image: url(../assets/images/img3.png);
   }
+  // Diagrams background images section start
+  .diagramItem1 {
+    background-image: url(../assets/images/diagrams1.jpg);
+  }
+
+  .diagramItem2 {
+    background-image: url(../assets/images/diagrams2.jpg);
+  }
+
+  .diagramItem3 {
+    background-image: url(../assets/images/diagrams3.jpg);
+  }
+
+  .diagramItem4 {
+    background-image: url(../assets/images/diagrams4.jpg);
+  }
+
+  .diagramItem5 {
+    background-image: url(../assets/images/diagrams5.jpg);
+  }
+
+  .diagramItem6 {
+    background-image: url(../assets/images/diagrams6.jpg);
+  }
+
+  .diagramItem7 {
+    background-image: url(../assets/images/diagrams7.jpg);
+  }
+
+  .diagramItem8 {
+    background-image: url(../assets/images/diagrams8.jpg);
+  }
+
+  .diagramItem9 {
+    background-image: url(../assets/images/diagrams9.jpg);
+  }
+
+  .diagramItem10 {
+    background-image: url(../assets/images/diagrams10.jpg);
+  }
+
+  .diagramItem11 {
+    background-image: url(../assets/images/diagrams11.jpg);
+  }
+
+  .diagramItem12 {
+    background-image: url(../assets/images/diagrams12.jpg);
+  }
+
   img {
     width: 100%;
   }
@@ -10789,5 +10838,10 @@ form .row:first-child .floating-label-form-group {
         margin-bottom: 50px;
       }
     }
+  }
+}
+#diagramsLibrary {
+  h2 {
+    font-size: 25px;
   }
 }
